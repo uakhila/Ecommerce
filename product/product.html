@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <nav>
+        <div class="logo"><h1>Ecommerce</h1></div>
+        <div class="link">
+            <ul>
+                <li><a href="../Index/index.html" class="home">Home</a></li>
+                <li><a href="./product.html" style="color: black;">Product</a></li>
+                <li><a href="../AboutUs/About.html">About</a></li>
+                <li><a href="../Contact/Contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="button">
+            <a href="../login/login.html"><button><i class="fa-duotone fa-solid fa-arrow-right-to-bracket" style="--fa-secondary-opacity: 1;"></i>Login</button></a>
+            <a href="../Register/Register.html"><button><i class="fa-solid fa-user-plus"></i>Register</button></a>
+            <a href="../cart/cart.html"><button><i class="fa-solid fa-cart-shopping"></i><p id="cart"></p></button></a>
+        </div>
+    </nav>
+
+    <nav class="mobile">
+        <div class="logo"><h1>Ecommerce</h1></div>
+        <div class="link">
+            <ul>
+                <li><a href="../Index/index.html" class="home">Home</a></li>
+                <li><a href="../Products/product.html">Product</a></li>
+                <li><a href="../AboutUs/About.html">About</a></li>
+                <li><a href="../Contact/Contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="button">
+            <a href="../login/login.html"><button><i class="fa-duotone fa-solid fa-arrow-right-to-bracket" style="--fa-secondary-opacity: 1;"></i></button></a>
+            <a href="../Register/Register.html"><button><i class="fa-solid fa-user-plus"></i></button></a>
+            <a href="../cart/cart.html"><button><i class="fa-solid fa-cart-shopping"></i><p id="cart"></p></button></a>
+        </div>
+    </nav>
+
+    
+    <h1 class="latest">Latest Products</h1>
+    <div class="container">
+        <div class="filter-btn">
+            <button id="all">All</button>
+            <button id="menBtn">Men's Clothing</button>
+            <button id="womenBtn">Women's Clothing</button>
+            <button id="jeweleryBtn">jewelery</button>
+            <button id="electronicsBtn">Electronic's</button>
+        </div>
+        <div class="item-container" id="products">
+
+        </div>
+    </div>
+</body>
+<script src="../Index/index.js"></script>
+</html>
